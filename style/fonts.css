@@ -1,0 +1,14 @@
+@font-face{
+    font-family: "PlayfairDisplayBoldItalic";
+    src:url("../fonts/PlayfairDisplay-BoldItalic.ttf")
+}
+
+@font-face{
+    font-family: "PlayfairDisplayBold";
+    src:url("../fonts/PlayfairDisplay-Bold.ttf")
+}
+
+@font-face{
+    font-family: "PlayfairDisplay";
+    src:url("../fonts/PlayfairDisplay-Regular.ttf")
+}

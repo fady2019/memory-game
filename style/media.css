@@ -1,0 +1,294 @@
+/*strat navbar media*/
+@media(max-width:767px){
+    .navbar .left,
+    .navbar .right{
+        display: none;
+    }
+    .navbar .center{ 
+        left: 0;
+        margin: 0;
+        padding: 0;
+    }
+    .navbar .center span{font-size: 28px;}
+    .navbar .bars{ 
+        display: block;
+        font-size: 30px;
+        top: 25px;
+        cursor: pointer;
+    }
+    .navbar .infoBars{
+        width: 100%;
+        top: 82px;
+        background-color: rgba(0, 0, 0, 0.65);
+    }
+    .navbar .infoBars li{
+        margin: 15px 0 0 50px;
+    }
+}
+
+@media(min-width:768px) and (max-width:991px){
+    .navbar li{
+        margin: 0 20px !important;
+    }    
+    .navbar .padding{padding: 25px 20px;}
+    .navbar .infoBars li{display: none;}
+    .navbar .center{
+        margin: 0 0 0 -270px;
+    }
+    .navbar .center span{
+        font-size: 28px;
+        line-height: 45px;
+    }
+}
+
+@media(min-width:992px) and (max-width:1199px){
+    .navbar .padding{padding: 25px 80px;}
+    .navbar .infoBars li{display: none;}
+}
+
+@media(min-width:1200px){
+    .navbar .padding{padding: 25px 120px;}
+    .navbar .infoBars li{display: none;}
+}
+/*end navbar media*/
+
+
+/*start header media*/
+@media(max-width:767px){
+    .header h2,
+    .header p,
+    .header button{
+        text-align: left;
+    }
+
+    .header h2{
+        font-size: 25px;
+        margin-bottom: 30px;
+    }
+    .header p{
+        margin-bottom: 40px;
+        font-size: 10px;   
+    }
+    .header button{
+        padding: 10px 30px;
+        font-size: 14px;
+        float: left;
+    }
+}
+
+@media(min-width:768px) and (max-width:991px){
+    .header h2{
+        font-size: 32.5px;
+        margin-bottom: 30px;
+    }
+    .header p{
+        line-height: 1.9;
+        margin-bottom: 40px;
+        font-size: 12px;
+    }
+    .header button{
+        padding: 12.5px 35px;
+        font-size: 14px;
+    }
+}
+/*end  header media*/
+
+
+
+
+/*start menu media*/
+/*
+@media(min-width:500px) and (max-width:600px){
+    .menu h3{
+        font-size: 20px !important;
+    }
+    .menu h3:before,
+    .menu h3:after{
+        width: 60px !important;
+        top: 12px;
+    }
+    .menu .container>p{
+        font-size: 10px;
+    }
+    .menu .buttons button{
+        width: 100px;
+    }
+    .menu .buttons button:nth-of-type(2){
+        margin: 0 20px;
+    }
+}
+@media(min-width:601px) and (max-width:700px){
+    .menu h3{
+        font-size: 25px !important;
+    }
+    .menu h3:before,
+    .menu h3:after{
+        width: 70px !important;
+        top: 15px;
+    }
+    .menu .container>p{
+        font-size: 12px;
+    }
+    .menu .buttons button{
+        width: 120px;
+    }
+    .menu .buttons button:nth-of-type(2){
+        margin: 0 20px;
+    }
+}
+@media(min-width:701px) and (max-width:800px){
+    .menu h3{
+        font-size: 30px !important;
+    }
+    .menu h3:before,
+    .menu h3:after{
+        width: 80px !important;
+        top: 18px;
+    }
+    .menu .container>p{
+        font-size: 15px;
+    }
+    .menu .buttons button{
+        width: 140px;
+    }
+    .menu .buttons button:nth-of-type(2){
+        margin: 0 20px;
+    }
+}
+@media(min-width:801px) and (max-width:900px){
+    .menu h3{
+        font-size: 35px !important;
+    }
+    .menu h3:before,
+    .menu h3:after{
+        width: 90px !important;
+        top: 21px;
+    }
+    .menu .container>p{
+        font-size: 14px;
+    }
+    .menu .buttons button{
+        width: 140px;
+    }
+    .menu .buttons button:nth-of-type(2){
+        margin: 0 20px;
+    }
+}
+@media(min-width:901px) and (max-width:1000px){
+    .menu h3{
+        font-size: 40px !important;
+    }
+    .menu h3:before,
+    .menu h3:after{
+        width: 100px !important;
+        top: 24px;
+    }
+    .menu .container>p{
+        font-size: 14px;
+    }
+    .menu .buttons button{
+        width: 140px;
+    }
+    .menu .buttons button:nth-of-type(2){
+        margin: 0 20px;
+    }
+}
+*/
+@media(max-width:767px){
+    
+    .menu .food>div{
+        float: none;
+        width: 70%;
+        margin: 0 auto !important;
+    }
+}
+@media(min-width:768px) and (max-width:991px) {
+    
+    .menu .food>div{
+        float: left;
+        width: 45%;
+        margin: 0 !important;
+    }
+    .menu .food>div:nth-of-type(2n+1){
+        margin-right: 10% !important;
+    }
+    
+}
+/*end menu media*/
+
+
+
+/*start our breakfast media*/
+@media(max-width:767px){
+    .ourBreakfast .menu{
+        height: 150px;
+    }
+    .ourBreakfast .menu .offer p{
+        padding: 0 10PX;
+        font-size: 18px;
+    }
+}
+@media(min-width:768px) and (max-width:991px){
+    .ourBreakfast .menu{
+        height: 225px;
+    }
+    .ourBreakfast .menu .offer p{
+        padding: 0 40PX;
+        font-size: 28px;
+    }
+}
+@media(min-width:992px) and (max-width:1199px){
+    .ourBreakfast .menu{
+        height: 275px;
+    }
+    .ourBreakfast .menu .offer p{
+        padding: 0 55PX;
+        font-size: 35px;
+    }
+}
+/*end our breakfast media*/
+
+
+
+/*start sub media*/
+@media(max-width:767px){
+    .sub{
+        height: 300px;
+    }
+    .sub h2{
+        font-size: 30px;
+    }
+    .sub input{
+        margin: 40px auto;
+        width: 55%;
+        height: 35px;
+    }
+    .sub input::-webkit-input-placeholder{
+       font-size: 12px;
+    }
+    .sub button{
+        font-size: 14px;;
+        padding: 9px 20px;
+    }
+}
+@media(min-width:768px) and (max-width:991px){
+    .sub{
+        height: 350px;
+    }
+    .sub h2{
+        font-size: 40px;
+    }
+    .sub input{
+        margin: 40px auto;
+        width: 55%;
+        height: 35px;
+    }
+    .sub input::-webkit-input-placeholder{
+       font-size: 15px;
+    }
+    .sub button{
+        font-size: 15px;;
+        padding: 12px 22px;
+    }
+}
+/*end sub media*/

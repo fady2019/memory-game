@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/all.min.css"/>
+    <link rel="stylesheet" href="style/normalize.css"/>
+    <link rel="stylesheet" href="style/fonts.css"/>
+    <link rel="stylesheet" href="style/style.css"/>
+    <!--<link rel="stylesheet" href="style/media.css"/>-->
+    <title>Game</title>
+</head>
+<body>
+    <!--overlay-->
+    <div class="overlay">
+        <button>Start The Game</button>
+    </div>
+
+    <!--information-->
+    <div class="info">
+        <div class="name">
+            Name: <span>.......</span>
+        </div>
+        <div class="time">
+            
+        </div>
+        <div class="wrongTime">
+            Wrong Times: <span>0</span>  
+        </div>
+    </div>
+    
+     <!--game-->
+    <div class="startGame">
+    </div>
+
+    <!--say congratulations-->
+    <div class="con">
+        <span class="sayCon" style="display: block;"></span>
+        <button>Play Again</button>
+        <p>Designed By Fady Emad (The Dragon)</p>
+    </div>
+    <!--say loser-->
+    <div class="lose">
+        <span class="saylose" style="display: block;"></span>
+        <button>Replay</button>
+        <p>Designed By Fady Emad (The Dragon)</p>
+    </div>
+
+     <!--sounds-->
+     <audio id="successful" src="soundsEffect/Successful.mp3" preload="auto"></audio>
+     <audio id="fail" src="soundsEffect/Fail.mp3" preload="auto"></audio>
+     <audio id="con" src="soundsEffect/Congratulations .mp3" preload="auto"></audio>
+     <audio id="gameOver" src="soundsEffect/gameOver.mp3" preload="auto"></audio>
+
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/placeholder.js"></script>
+    <script src="js/js.js"></script>
+</body>
+</html>
